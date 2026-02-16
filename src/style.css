@@ -12,6 +12,8 @@ body {
   background-color: #0A122A;
 }
 
+.outline { -webkit-text-stroke: 1px rgb(38, 48, 66); color: transparent; }
+
 .montserrat-light {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

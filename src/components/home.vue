@@ -7,6 +7,7 @@
     <div class="absolute inset-0 bg-[#0A122A]/20 z-10 mask-b-to-50%"></div>
     <div class="absolute inset-0 bg-[#0A122A] z-10 mask-r-from-5%"></div>
     <div class="absolute inset-0 bg-[#0A122A] z-10 mask-t-to-50%"></div>
+    <div class="md:hidden absolute inset-0 bg-[#0A122A] z-10 mask-b-to-25%"></div>
 
     <div class="relative w-[90%] md:w-3/4 flex flex-col justify-center lg:top-70 z-20">
       <h1 class="w-full md:w-3/4 raleway-light text-white md:left-2 text-xs md:text-xl text-center md:text-left">
@@ -23,14 +24,14 @@
 
   <section class="relative min-h-screen w-full flex flex-col items-center justify-center text-white">
     <div class="mx-auto w-3/4">
-      <h1 class=" mt-2 mb-5 justify-center text-left text-4xl sm:text-7xl raleway-medium text-transparent bg-clip-text bg-linear-to-r from-[#586BA4] via-[#F5DD90] via-30% to-[#F68E5F] ">
+      <h1 class=" mt-2 mb-5 justify-center text-left text-4xl sm:text-6xl raleway-medium text-transparent bg-clip-text bg-linear-to-r from-[#586BA4] via-[#F5DD90] via-30% to-[#F68E5F] ">
         INTROUDCTION
       </h1>
       <div class="fadeIntersect relative lg:row-span-1">
         <div class="absolute inset-px rounded-lg bg-[#050b1b]/20 rounded-tl-4xl backdrop-blur-xl shadow-lg border border-[#161b2b] transition-all duration-300 group-hover:border-[#252d3a] z-0">
         </div>
         <div class="relative flex h-full flex-col overflow-hidden px-8 pt-8 pb-6 sm:px-10  sm:py-10">
-          <p class="mt-2 leading-12 text-4xl text-gray-400">
+          <p class="mt-2 sm:leading-12 sm:text-3xl text-xl text-gray-400">
             Welcome to the Compassionate Paws Initiative. We are a community of animal lovers, advocates, and changemakers dedicated to improving the lives of animals everywhere. Whether it’s a stray cat in need of shelter, a farm animal seeking humane treatment, or wildlife threatened by habitat loss, we believe every being deserves compassion.
           </p>
         </div>
@@ -39,6 +40,33 @@
     <div class="absolute -bottom-50 -right-75 lg:-top-100 lg:-right-180 w-150 h-150 lg:w-500 lg:h-500 bg-[radial-gradient(circle,#161f38_0%,transparent_50%)] opacity-80 -z-1 pointer-events-none">
     </div>
     <div class="absolute -bottom-50 -right-75 lg:-bottom-150 lg:-left-80 w-150 h-150 lg:w-500 lg:h-500 bg-[radial-gradient(circle,#161f38_0%,transparent_50%)] opacity-60 -z-1 pointer-events-none">
+    </div>
+  </section>
+
+  <section class="relative min-h-screen flex flex-col justify-center items-center">
+    <div class="w-screen relative min-h-screen flex items-center justify-center mx-auto z-30 text-center">
+      <h1 class="select-none text-[150px] lg:text-[600px] montserrat-extrabold uppercase font-bold text-[#070F1F]/60 transition-all duration-1000 text-shadow-white outline">
+        CPI
+      </h1>
+      <div class="w-3/4 flex flex-col items-center absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2">
+        <h3 class="text-2xl md:text-4xl lg:text-5xl text-[#f1f1f1]/90 transition-all duration-1000 fadeIntersect z-20 font-extrabold show">
+          "The greatness of a nation and its moral progress can be judged by the way its animals are treated." – 
+          <span class="text-transparent bg-clip-text bg-linear-to-r from-[#586BA4] via-[#F5DD90] via-30% to-[#F68E5F]">
+            Mahatma Gandhi
+          </span>
+        </h3>
+        <a href="#/learn" class="text-sm lg:text-base mt-6 inline-block text-white backdrop-blur-xl w-max px-6 py-3 rounded-full font-[Montserrat] font-medium transition-all duration-300 border border-slate-500/40 hover:border-[#125E85/60]  hover:scale-105 active:scale-95">
+          <span class="text-transparent bg-clip-text bg-linear-to-r from-[#586BA4] via-[#F5DD90] via-30% to-[#F68E5F]">
+            Learn More
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="absolute -bottom-50 -left-50 lg:-top-80 lg:-left-100 w-150 h-150 lg:w-350 lg:h-350 bg-[radial-gradient(circle,#1A0841_0%,transparent_50%)] opacity-20 -z-1 pointer-events-none">
+    </div>
+
+    <div class="absolute -bottom-50 -right-75 lg:-top-100 lg:-right-180 w-150 h-150 lg:w-500 lg:h-500 bg-[radial-gradient(circle,#0C2A3C_0%,transparent_50%)] opacity-20 -z-1 pointer-events-none">
     </div>
   </section>
 </template>
