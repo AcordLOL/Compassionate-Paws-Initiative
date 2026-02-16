@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #030A17;
+  background-color: #0A122A;
 }
 
 .montserrat-light {
@@ -46,6 +46,6 @@ body {
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 650;
   font-style: normal;
 }

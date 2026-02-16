@@ -29,10 +29,10 @@ const currView = computed(() => {
   </div>
   <header>
     <nav id="navbar" class="w-full gap-4 fixed z-50 pointer-events-auto backdrop-blur-lg bg-[#030A17]/30 rounded-b-lg transition-all duration-200 ease-in-out text-white">
-      <div class="w-5/6 md:w-3/4 mx-auto">
+      <div class="w-5/6 md:w-3/4 mx-auto pb-3">
 
         <!-- big -->
-        <div class="hidden lg:flex flex-row items-center justify-center lg:justify-between border-b border-[#f1f1f1]/50 py-5">
+        <div class="hidden lg:flex flex-row items-center justify-center lg:justify-between border-b border-[#f1f1f1]/50 py-3">
           <div class="h-full flex flex-row items-center gap-8 w-full">
             <h1 class="flex flex-row gap-3 shrink-0 items-center text-base xl:text-xl">CPI</h1>
             <a href="#/" class="text-xs xl:text-sm text-white/80 hover:text-[#FF9F1C] relative transition-all duration-300 h-full flex items-center montserrat-light">Home</a>
