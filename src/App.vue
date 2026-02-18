@@ -32,9 +32,9 @@ const currView = computed(() => {
       <div class="w-5/6 md:w-3/4 mx-auto pb-3">
 
         <!-- big -->
-        <div class="hidden lg:flex flex-row items-center justify-center lg:justify-between border-b border-[#f1f1f1]/50 py-3">
-          <div class="h-full flex flex-row items-center gap-8 w-full">
-            <h1 class="flex flex-row gap-3 shrink-0 items-center text-base xl:text-xl">CPI</h1>
+        <div class="hidden lg:flex flex-row items-center justify-between border-b border-[#f1f1f1]/50 py-3">
+          <h1 class="flex flex-row h-full bg-clip-text text-transparent bg-linear-to-r from-[#586BA4] via-[#F5DD90] via-30% to-[#F68E5F] items-center justify-between gap-6 shrink-0 text-base xl:text-xl text-right">Compassionate Paws Initiative</h1>
+          <div class="h-full flex flex-row items-center gap-8">
             <a href="#/" class="text-xs xl:text-sm text-white/80 hover:text-[#FF9F1C] relative transition-all duration-300 h-full flex items-center montserrat-light">Home</a>
             <a href="#/learn" class="text-xs xl:text-sm text-white/80 hover:text-[#FF9F1C] transition-all duration-300 h-full items-center montserrat-light montserrat-light cursor-pointer">Learn</a>
             <a href="#/takeaction" class="text-xs xl:text-sm text-white/80 hover:text-[#FF9F1C] transition-all duration-300 h-full items-center montserrat-light montserrat-light cursor-pointer">Take Action</a>
